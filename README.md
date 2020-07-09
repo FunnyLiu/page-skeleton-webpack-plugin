@@ -1,3 +1,129 @@
+
+# 源码分析
+
+## 文件结构
+
+``` bash
+/Users/liufang/openSource/opnipotent-front-end/page-skeleton-webpack-plugin
+├── LICENSE
+├── README.md
+├── client
+|  ├── components
+|  |  └── console
+|  |     └── index.vue
+|  ├── index.js
+|  ├── sockjs.js
+|  ├── utils.js
+|  ├── webpack.config.js
+|  └── webpack.sockjs.config.js
+├── docs
+|  ├── banner.jpg
+|  ├── chiaroscuro.gif
+|  ├── i18n
+|  |  └── zh_cn.md
+|  ├── shine.gif
+|  ├── spin.gif
+|  ├── step1.jpg
+|  ├── step2.jpg
+|  └── workflow.gif
+├── examples
+|  └── sale
+|     ├── README.md
+|     ├── index.html
+|     ├── package-lock.json
+|     ├── package.json
+|     ├── shell
+|     |  └── index.html
+|     ├── src
+|     |  ├── App.vue
+|     |  ├── assets
+|     |  |  └── logo.png
+|     |  ├── components
+|     |  |  └── product.vue
+|     |  ├── data.js
+|     |  ├── main.js
+|     |  ├── pages
+|     |  |  ├── home.vue
+|     |  |  └── search.vue
+|     |  └── router
+|     |     └── index.js
+|     └── webpack.config.js
+├── index.js
+├── package-lock.json
+├── package.json
+├── preview
+|  ├── app.vue
+|  ├── assets
+|  |  └── icons.js
+|  ├── bus
+|  |  └── index.js
+|  ├── codeMirror
+|  |  └── index.js
+|  ├── components
+|  |  ├── bartop.vue
+|  |  ├── chatbox.vue
+|  |  ├── edit.vue
+|  |  └── preview.vue
+|  ├── dist
+|  |  └── index.html
+|  ├── index.css
+|  ├── index.html
+|  ├── index.js
+|  ├── socket
+|  |  └── index.js
+|  ├── store
+|  |  └── index.js
+|  └── webpack.preview.config.js
+├── src
+|  ├── config
+|  |  ├── config.js
+|  |  ├── optionsSchema.json
+|  |  └── optionsValidationError.js
+|  ├── script
+|  |  ├── animation
+|  |  |  └── index.js
+|  |  ├── config.js
+|  |  ├── handler
+|  |  |  ├── background.js
+|  |  |  ├── button.js
+|  |  |  ├── grayBlock.js
+|  |  |  ├── image.js
+|  |  |  ├── index.js
+|  |  |  ├── list.js
+|  |  |  ├── pseudos.js
+|  |  |  ├── styleCache.js
+|  |  |  ├── svg.js
+|  |  |  └── text.js
+|  |  ├── index.js
+|  |  ├── main.js
+|  |  ├── rollup.config.js
+|  |  └── util.js
+|  ├── server.js
+|  ├── skeleton.js
+|  ├── skeletonPlugin.js
+|  ├── templates
+|  |  ├── notFound.html
+|  |  ├── shell.js
+|  |  └── shell.vue
+|  └── util
+|     └── index.js
+
+directory: 28 file: 75
+
+ignored: directory (1)
+
+```
+
+## 外部模块依赖
+
+请在： http://npm.broofa.com?q=page-skeleton-webpack-plugin 查看
+
+## 内部模块依赖
+
+![img](./inner.svg)
+  
+
+
 <p align="center">
 <img src="https://github.com/ElemeFE/page-skeleton-webpack-plugin/raw/master/docs/banner.jpg" alt="mark text" width="100%">
 </p>
